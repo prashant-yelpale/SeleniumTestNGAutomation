@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-07T00:11:26 GMT" name="Suite" finished-at="2025-02-07T00:11:46 GMT" duration-ms="20036">
+    <groups>
+      <group name="Purchase">
+        <method signature="StandAloneTest2.submitOrder(java.util.HashMap)[pri:0, instance:testCompanycom.tests.StandAloneTest2@478190fc]" name="submitOrder" class="testCompanycom.tests.StandAloneTest2"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2025-02-07T00:11:26 GMT" name="Error Validations Test" finished-at="2025-02-07T00:11:26 GMT" duration-ms="11">
+    </test> <!-- Error Validations Test -->
+    <test started-at="2025-02-07T00:11:26 GMT" name="Submit Order Test" finished-at="2025-02-07T00:11:46 GMT" duration-ms="20036">
+      <class name="testCompanycom.tests.StandAloneTest2">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testCompanycom.tests.StandAloneTest2@478190fc]" started-at="2025-02-07T00:11:26 GMT" name="launchApplication" finished-at="2025-02-07T00:11:31 GMT" duration-ms="4696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:testCompanycom.tests.StandAloneTest2@478190fc]" started-at="2025-02-07T00:11:31 GMT" name="submitOrder" data-provider="getData" finished-at="2025-02-07T00:11:36 GMT" duration-ms="5509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test@143, product=QWERTY, email=selautoframedesign@gmail.om}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCompanycom.tests.StandAloneTest2@478190fc]" started-at="2025-02-07T00:11:36 GMT" name="tearDown" finished-at="2025-02-07T00:11:36 GMT" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testCompanycom.tests.StandAloneTest2@478190fc]" started-at="2025-02-07T00:11:36 GMT" name="launchApplication" finished-at="2025-02-07T00:11:40 GMT" duration-ms="3606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:testCompanycom.tests.StandAloneTest2@478190fc]" started-at="2025-02-07T00:11:40 GMT" name="submitOrder" data-provider="getData" finished-at="2025-02-07T00:11:46 GMT" duration-ms="5598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test@143, product=IPHONE 13 PRO, email=selautoframedesign1@gmail.om}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCompanycom.tests.StandAloneTest2@478190fc]" started-at="2025-02-07T00:11:46 GMT" name="tearDown" finished-at="2025-02-07T00:11:46 GMT" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCompanycom.tests.StandAloneTest2 -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
