@@ -18,7 +18,7 @@ public class StandAloneTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		//CI-CD Connection Check
 		String productName = "qwerty";
 
 		WebDriverManager.chromedriver().setup();
